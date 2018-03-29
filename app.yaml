@@ -1,0 +1,14 @@
+runtime: php55
+api_version: 1
+application: big-rig-856
+version: v1
+
+handlers:
+- url: /.*
+  script: index/showallbaiviet.php
+
+  env_variables:
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/big-rig-856:us-central1:avian-bricolage-197005:asia-south1:tomiot8485;dbname=ellenstore
+  MYSQL_USER:root
+  MYSQL_PASSWORD: '1234'
+  

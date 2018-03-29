@@ -69,7 +69,7 @@ if ( isset( $_POST[ 'login' ] ) ) {
 						<!--<span class="psw">Forgot <a href="#">password?</a></span>-->
 						<input type="submit" class="btn btn-outline-primary btn-block" id="login" value="Đăng nhập" name="login">
 						<br>
-						<a href="http://localhost:6969/dientoandammay/index/showallbaiviet.php">
+						<a href="../index/showallbaiviet.php">
 							<button style="text-decoration: none" class="btn btn-outline-success btn-block">Quay về trang chủ</button>
 						</a>
 					</div>

@@ -1,6 +1,6 @@
 <?php
 
-include('../connect/connect.php');
+include( '../modules/config.php' );
 $id = $_GET[ 'idbaiviet' ];
 
 // sql to delete a record

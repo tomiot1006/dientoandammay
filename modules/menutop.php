@@ -4,8 +4,7 @@ include( "config.php" );
 if ( !isset( $_SESSION ) ) {
 	session_start();
 }
-$sql_loaisp = "Select * from danhmuc";
-$query1 = $conn->query( $sql_loaisp );
+
 ?>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" id="menutop"> 

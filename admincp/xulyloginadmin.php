@@ -1,6 +1,6 @@
 <?php
 session_start();
-include( '../connect/connect.php' );
+include( '../modules/config.php' );
 
 if ( isset( $_POST[ 'action' ] ) && $_POST[ 'action' ] == "login") {
 	$username = $_POST[ 'username' ];

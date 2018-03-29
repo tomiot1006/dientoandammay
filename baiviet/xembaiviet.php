@@ -1,3 +1,4 @@
+<div class="col-md-12 col-lg-12">
 <?php
 $sql = "select * from baiviet order by idbaiviet";
 $result = $conn->query( $sql );
@@ -30,7 +31,7 @@ $result = $conn->query( $sql );
 				<?php echo $row["tieude"]; ?>
 			</td>
 			<td>
-				<?php echo "Chọn chỉnh sửa để xem nội dung bài viết" ?>
+				
 			</td>
 			<td>
 				<?php echo $row["hinhanh"]; ?>

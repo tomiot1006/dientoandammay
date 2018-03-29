@@ -85,7 +85,7 @@
 
 							<?php
 
-							include( '../connect/connect.php' );
+							include( '../modules/config.php' );
 							#-------------------code sữa bài viết ở đây
 
 

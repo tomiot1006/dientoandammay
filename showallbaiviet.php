@@ -20,7 +20,7 @@
 	include( "../modules/header.php" );
 
 	#menu nav bar
-	#include( "../modules/menutop.php" );
+	include( "../modules/menutop.php" );
 
 	?>
 

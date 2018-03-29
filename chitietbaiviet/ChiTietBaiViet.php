@@ -47,7 +47,7 @@
 							<div>
 								<h3>
 									<?php
-									include( '../connect/connect.php' );
+									include( '../modules/config.php' );
 
 									$idbaiviet = $_GET[ 'idbaiviet' ];
 									$sql = "select * from baiviet where idbaiviet = '$idbaiviet'"; // post id bai viet vao day

@@ -1,5 +1,5 @@
 <?php
-include( '../connect/connect.php' );
+include( '../modules/config.php' );
 
 
 	$id = $_GET[ 'idbaiviet' ];

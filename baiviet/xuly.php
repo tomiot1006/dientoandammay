@@ -1,5 +1,5 @@
 <?php
-include( '../connect/connect.php' );
+include( '../modules/config.php' );
 
 if ( isset( $_POST[ 'them' ] ) ) {
 	$stmt = $conn->prepare( "INSERT INTO baiviet (tieude, noidung, hinhanh,video,luotlike,dislike)
